@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>gamifund</title>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Muli');
+    *, *:before, *:after{
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+    }
+    body{
+
+        background: #000 url(img/bg.jpg);
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        font-family: 'Muli', sans-serif;
+    }
+    .logo{
+        max-width: 500px;
+        width: 100%;
+        padding: 15px;
+        position: absolute;
+        margin-left: -250px;
+        top: 50%;
+        left: 50%;
+        margin-top: -104px;
+        text-align: center;
+        height: 108px;
+    }
+    .logo img{
+        max-width: 100%;
+        display:block;
+        margin-bottom: 15px;
+    }
+    .wrapper{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    </style>
 </head>
-
 <body>
-GAMIFUND
+    <div class="wrapper">
+    <div class="logo">
+        <img src="img/gamifund-logo.png" alt="">
+        <h2>A Gaming-Based Crowdfunding Platform <br>Coming Soon</h2>
+        </div>
+    </div>
 </body>
-
 </html>
